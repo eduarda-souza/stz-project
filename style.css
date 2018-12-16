@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+}
+
+.visited-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.visited-product .product {
+    margin: 0 10px;
+}
+
+.product {
+    justify-content: center;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product-description p {
+    text-align: center;
+    line-height: 14px;
+    max-width: 150px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+}
+
+.title, .product {
+    display: flex;
+    margin: 20px 10px;
+}
+
+.title-produto {
+  font-size: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+button {
+  background-color: #f70045;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 10px;
+  margin-right: 8px;
+}
+
+.visited-product .title {
+    border-bottom: 1px solid #000000;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.button-container {
+    width: 60px;
+}
+
+.reload {
+    font-size: 13px;
+}
+
+.imagem {
+    width: 160px;
+    height: 140px;
+}
+
+.interesse-1 {
+    display: none;
+}
+
+.interesse-3 {
+    display: none;
+}
+
+.interesse-4 {
+    display: none;
+}
+
+.arrow {
+    display: none;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.carrousel-control {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+.dot.selected {
+    background-color: #979595;
+}

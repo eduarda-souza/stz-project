@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 70px;
+    width: 60px;
+}
+
+.imagem {
+    width: 250px;
+    height: 160px;
+}
+
+.visited-product .title button span {
+    display: none;
+}
+
+.visited-product .content .product {
+    margin: 20px 10px;
+}
+
+.product-description {
+    align-items: center;
+    margin-top: 40px;
+}
+
+.pricing {
+    margin-top: 10px;
+}
+
+.sugested-products .title {
+    margin: 20px 10px;
+    margin-left: -10px;
+    padding: 5px 0;
+    padding-left: 20px;
+    border-bottom: 1px solid #000000;
+    height: 20px;
+}
+
+.interesse-1 {
+    display: flex;
+}
+
+.interesse-3 {
+    display: flex;
+}
+
+.interesse-4 {
+    display: flex;
+}
+
+.carrousel-control {
+    display: none;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+}
